@@ -6,7 +6,7 @@ metadata:
   namespace: default
 spec:
   interval: 1m0s
-  path: ./postgres/on-premises/no-helm-tmp
+  path: ./postgres/on-premises/no-helm-temp
   prune: true
   sourceRef:
     kind: GitRepository
