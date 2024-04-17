@@ -19,7 +19,7 @@ spec:
   interval: 20s
   sourceRef:
     kind: GitRepository
-    name: no-helm-temp-source
+    name: nginxhello
   update:
     path: ./postgres/on-premises/no-helm-tmp
     strategy: Setters
