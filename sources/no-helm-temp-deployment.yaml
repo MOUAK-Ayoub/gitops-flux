@@ -8,4 +8,4 @@ spec:
   interval: 1m0s
   ref:
     branch: master
-  url: https://github.com/MOUAK-Ayoub/kubernetes.git
+  url: https://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@github.com/MOUAK-Ayoub/kubernetes.git
