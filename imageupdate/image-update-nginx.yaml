@@ -24,3 +24,4 @@ spec:
   update:
     path: ./postgres/on-premises/no-helm-tmp
     strategy: Setters
+
