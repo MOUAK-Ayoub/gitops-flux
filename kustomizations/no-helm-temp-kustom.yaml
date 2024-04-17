@@ -5,7 +5,7 @@ metadata:
   name: no-helm-temp-kustom
   namespace: default
 spec:
-  interval: 1m0s
+  interval: 30s
   path: ./postgres/on-premises/no-helm-tmp
   prune: true
   sourceRef:
