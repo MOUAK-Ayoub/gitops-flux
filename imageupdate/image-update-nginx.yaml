@@ -19,7 +19,7 @@ spec:
   interval: 1m0s
   sourceRef:
     kind: GitRepository
-    name: no-helm-temp-source
+    name: nginxhello
     namespace: default
   update:
     path: ./postgres/on-premises/no-helm-tmp
