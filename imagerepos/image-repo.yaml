@@ -6,4 +6,4 @@ metadata:
   namespace: default
 spec:
   image: docker.io/nbrown/nginxhello
-  interval: 1m0s
+  interval: 20s
