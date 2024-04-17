@@ -3,7 +3,7 @@ apiVersion: image.toolkit.fluxcd.io/v1beta1
 kind: ImageUpdateAutomation
 metadata:
   name: nginxhello
-  namespace: flux-system
+  namespace: default
 spec:
   git:
     checkout:
@@ -20,7 +20,6 @@ spec:
   sourceRef:
     kind: GitRepository
     name: no-helm-temp-source
-    namespace: default
   update:
     path: ./postgres/on-premises/no-helm-tmp
     strategy: Setters
