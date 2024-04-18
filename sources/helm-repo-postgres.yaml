@@ -1,0 +1,9 @@
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: HelmRepository
+metadata:
+  name: postgres
+  namespace: default
+spec:
+  interval: 1m0s
+  url: http://5533aa4e261c.mylabserver.com:8080
