@@ -6,4 +6,4 @@ metadata:
   namespace: default
 spec:
   interval: 1m0s
-  url: http://5533aa4e261c.mylabserver.com:8080
+  url: http://18.132.120.83:8080
