@@ -9,6 +9,8 @@ spec:
   eventSources:
   - kind: GitRepository
     name: '*'
+  - kind: HelmRepository
+    name: '*'
   - kind: Kustomization
     name: '*'
   - kind: ImagePolicy
