@@ -3,3 +3,4 @@ kind: Kustomization
 resources:
 - helm-repo-postgres.yaml
 - no-helm-temp-deployment.yaml
+- postgres-chart.yaml

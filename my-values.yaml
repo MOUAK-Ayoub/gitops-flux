@@ -1,0 +1,3 @@
+deployment:
+  image:
+    version: "12.4"
